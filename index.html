@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>API Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="grid">
+
+  <div class="cell" id="dog">
+    <h2>🐶 Dog Image</h2>
+    <img class="output">
+    <button onclick="loadDog()">Refresh</button>
+  </div>
+  <div class="cell" id="cat">
+    <h2>🐱 Cat Image</h2>
+    <img class="output">
+    <button onclick="loadCat()">Refresh</button>
+  </div>
+  <div class="cell" id="weather">
+    <h2>🌤️ Weather (San Antonio)</h2>
+    <p class="output"></p>
+    <button onclick="loadWeather()">Refresh</button>
+  </div>
+  <div class="cell" id="currency">
+    <h2>💱 USD → EUR</h2>
+    <p class="output"></p>
+    <button onclick="loadCurrency()">Refresh</button>
+  </div>
+
+  <div class="cell" id="movies">
+    <h2>🎬 Trending Movies</h2>
+    <ul class="output"></ul>
+    <button onclick="loadMovies()">Refresh</button>
+  </div>
+  <div class="cell" id="github">
+    <h2>🧑‍💻 GitHub User: octocat</h2>
+    <img class="avatar" width="100">
+    <p class="output"></p>
+    <button onclick="loadGitHub()">Refresh</button>
+  </div>
+
+  <div class="cell" id="joke">
+    <h2>😂 Random Joke</h2>
+    <p class="output"></p>
+    <button onclick="loadJoke()">Refresh</button>
+  </div>
+
+  <div class="cell" id="anime">
+    <h2>📚 Bible Verse</h2>
+    <p class="output"></p>
+    <button onclick="loadAnime()">Refresh</button>
+  </div>
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
